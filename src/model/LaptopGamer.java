@@ -1,8 +1,14 @@
 package model;
 
 public class LaptopGamer extends Laptop {
-    public LaptopGamer(String marca, String modelo, String anioFabricacion, String tipoProcesador, int tamanioPantalla) {
-        super(marca, modelo, anioFabricacion, tipoProcesador, tamanioPantalla);
+    public LaptopGamer() {
+        super(
+                "Dell",
+                "Alienware M15",
+                "2024",
+                "Intel Ultra 7",
+                15
+        );
     }
 
     @Override

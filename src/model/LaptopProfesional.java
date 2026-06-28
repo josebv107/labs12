@@ -1,8 +1,14 @@
 package model;
 
 public class LaptopProfesional extends Laptop {
-    public LaptopProfesional(String marca, String modelo, String anioFabricacion, String tipoProcesador, int tamanioPantalla) {
-        super(marca, modelo, anioFabricacion, tipoProcesador, tamanioPantalla);
+    public LaptopProfesional() {
+        super(
+                "Apple",
+                "MacBook Pro",
+                "2026",
+                "M5 Pro",
+                14
+        );
     }
 
     @Override
